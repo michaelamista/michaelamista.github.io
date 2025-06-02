@@ -4720,8 +4720,6 @@ input, select, textarea {
   list-style: none;
 }
 
-
-/* Ensure icons are centered as well */
 .footer-row .icons {
   display: flex;
   justify-content: center;
@@ -4767,7 +4765,7 @@ input, select, textarea {
   position: relative;
 }
 
-.timeline-date {
+.timeline-date, .timeline-place {
   display: block;
   font-size: 0.9em;
   color: #888;
