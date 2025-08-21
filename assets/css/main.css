@@ -4772,7 +4772,21 @@ input, select, textarea {
   margin-bottom: 0.5em;
 }
 
-/* skills.html */
+/* Remove timeline line and icon for small screens */
+@media screen and (max-width: 600px) {
+  .timeline {
+    border-left: none;
+    padding-left: 0;
+  }
+  .timeline-icon {
+    display: none;
+  }
+  .timeline-content {
+    padding-left: 1em;
+  }
+}
+
+ /* skills.html */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
