@@ -1,5 +1,5 @@
 import { Outlet, useLocation } from "react-router-dom";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useState } from "react";
 import SiteHeader from "./SiteHeader";
 import SiteNav from "./SiteNav";
 import SiteFooter from "./SiteFooter";
@@ -24,6 +24,10 @@ export default function SiteLayout() {
 
   useEffect(() => {
     document.title = titles[location.pathname] ?? "Michael Amista' - Portfolio";
+  }, [location.pathname]);
+
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, [location.pathname]);
 
   useEffect(() => {
