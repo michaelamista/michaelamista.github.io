@@ -19,6 +19,9 @@ export default function EducationPage() {
               <br />
               Grade: 107/110
               <br />
+              <a href="https://drive.google.com/file/d/1cStZ3MGKciaEZZnOOREcD553b2wc6pxc/view?usp=drive_link">
+                <strong>Diploma Supplement</strong>
+              </a>
             </p>
           </div>
         </div>
@@ -33,8 +36,8 @@ export default function EducationPage() {
               <br />
               Grade: 97/110
               <br />
-              <a href="https://bestr.it/award/show/fDlC0ftwS_-Tem2rvspTWw">
-                <strong>Certificate</strong>
+              <a href="https://drive.google.com/file/d/1RzPj42_vKE_TqZl3Gl4NsdNzfECjeOji/view?usp=drive_link">
+                <strong>Diploma Supplement</strong>
               </a>
             </p>
           </div>
