@@ -13,7 +13,12 @@ export default function ExperiencePage() {
             <h3>Software Developer at Apeiroon</h3>
             <span className="timeline-place">Vicenza, Italy</span>
             <span className="timeline-date">October 2025 - Present</span>
-            <p>Working on developing private 4G/5G mobile network modules for tactical and strategic operations.</p>
+            <p>
+              Embedded Linux and web development for private 4G/5G mobile network modules used in tactical and
+              strategic operations. I work on ApeiroonOS, our custom Linux distribution that runs the whole network
+              stack on a single device, and on Network Manager, the web interface that lets operators bring up, secure
+              and update their private network.
+            </p>
           </div>
         </div>
 

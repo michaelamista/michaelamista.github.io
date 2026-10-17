@@ -3,7 +3,8 @@ export const navLinks = [
   { to: "/education", label: "Education" },
   { to: "/experience", label: "Experience" },
   { to: "/skills", label: "Skills" },
-  { to: "/projects", label: "Projects" }
+  { to: "/projects", label: "Projects" },
+  { to: "/publications", label: "Publications" }
 ];
 
 export const socialLinks = [
