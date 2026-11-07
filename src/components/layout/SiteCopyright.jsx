@@ -3,7 +3,7 @@ export default function SiteCopyright() {
     <div id="copyright">
       <ul>
         <li>&copy; All rights reserved</li>
-        <li>March 2026</li>
+        <li>October 2026</li>
       </ul>
     </div>
   );

@@ -12,7 +12,8 @@ const titles = {
   "/education": "Education | Michael Amista'",
   "/experience": "Experience | Michael Amista'",
   "/skills": "Skills | Michael Amista'",
-  "/projects": "Projects | Michael Amista'"
+  "/projects": "Projects | Michael Amista'",
+  "/publications": "Publications | Michael Amista'"
 };
 
 export default function SiteLayout() {

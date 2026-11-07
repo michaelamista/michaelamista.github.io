@@ -5,6 +5,7 @@ import EducationPage from "../pages/EducationPage";
 import ExperiencePage from "../pages/ExperiencePage";
 import SkillsPage from "../pages/SkillsPage";
 import ProjectsPage from "../pages/ProjectsPage";
+import PublicationsPage from "../pages/PublicationsPage";
 
 export default function AppRouter() {
   return (
@@ -15,6 +16,7 @@ export default function AppRouter() {
         <Route path="/experience" element={<ExperiencePage />} />
         <Route path="/skills" element={<SkillsPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/publications" element={<PublicationsPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
